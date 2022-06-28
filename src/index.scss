@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+:root {
+  --primary-color: black;
+  --secondary-color: #ffffff;
+}
+@font-face {
+  font-family:'Grind' ;
+  src: url(./assets/font/Grind_Demolished/Grind_Demolished/GrindDemolished.otf);
+
+}
+@font-face {
+  font-family: 'Proxon';
+  src: url(./assets/font/proxon/PROXON.ttf);
+}

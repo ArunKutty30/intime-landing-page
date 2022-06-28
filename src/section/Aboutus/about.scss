@@ -1,0 +1,28 @@
+.about{
+    font-family: 'Proxon';
+    padding:5em;
+    background-color: black;
+    h1{
+        color: #fff;
+       }
+    .content{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 1em;
+        .about_info{
+            &>*{
+                padding: 0.5em;
+            }
+            p{  
+                color: #fff;
+                margin:0 auto;
+                font-family: 'Times New Roman', Times, serif;
+                font-size:1.2em;
+                line-height: 1.4;
+                
+            }
+        }
+       
+    }
+  
+}
