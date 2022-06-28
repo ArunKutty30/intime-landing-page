@@ -1,0 +1,36 @@
+.collection{
+    padding:5em 2em;
+    background-color: var(--primary-color);
+    
+    h1{
+        font-family: 'Proxon';
+        color: #fff;
+        font-weight: bold;
+        font-size: 2.8em;
+    }
+    .type{
+        padding:1em;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap:2em;
+        margin-top: 5em;
+        >*{
+            border-right: 0.1px solid #fff;
+        }
+      .first_block{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+      }
+      .second_block{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .third_block{
+        border:none;
+        color: var(--secondary-color);
+      }
+    }
+}
