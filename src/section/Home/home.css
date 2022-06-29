@@ -6,6 +6,21 @@
     background-repeat: no-repeat;
     height:100vh;
 }
+h4{
+    color:'#fff';
+    padding:1em 2em;
+    text-align: center;
+    font-size: 3em;
+    font-weight: 600;
+    color: #fff;
+  
+}
+@media (max-width:768px) {
+    h4{
+        padding:1em 0em;
+    }    
+}
+
     .confetti {
         display: flex;
         justify-content: center;

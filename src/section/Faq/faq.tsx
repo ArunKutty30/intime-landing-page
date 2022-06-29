@@ -28,7 +28,7 @@ interface IFaqCard{
 const Faqcard:React.FC<IFaqCard>=({question,answer}) =>{
     const [value,setValue] =useState(false);
     return(
-        <div className='faq_section'>
+        <div className='faq_section' data-aos='fade-up'>
             <div onClick={() =>setValue(!value)}>
                 {question}
             </div>
@@ -47,13 +47,13 @@ export const Faq = () => {
 
   return (
     <div className='faq'>
-        <h1>FREQUENTLY ASKED QUESTIONS</h1>
-        <div className='container'>
+        <h1 data-aos='fade-up'>FREQUENTLY ASKED QUESTIONS</h1>
+        <div className='container' >
             {
                 faq.map((faq,index) =>{
                     return(
                     <>   
-                    <Faqcard question={faq.question} answer={faq.answer}></Faqcard>
+                    <Faqcard  question={faq.question} answer={faq.answer}></Faqcard>
                     </>
                     )
                 })

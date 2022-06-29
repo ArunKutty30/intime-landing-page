@@ -1,0 +1,12 @@
+.work{
+    background-color: var(--primary-color);
+    display: grid;
+    place-items: center;
+    padding-bottom: 2em;
+    h1{
+        color: var(--secondary-color);
+        font-family: 'Proxon';
+        padding:2em;
+        font-style: italic;
+    }
+}
