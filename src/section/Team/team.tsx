@@ -22,7 +22,7 @@ const Team = () => {
         <h1>
             MEET OUR TEAM . . .
         </h1>
-        <div className='card_container mt-20 p-50'>
+        <div className='card_container mt-20 '>
         {
             team.map((a,index) => {
                 return(
