@@ -15,7 +15,7 @@ const Nft = () => {
           <img src={time} width='300' height='300' alt='collection'></img>
         </div>
         <div className="third_block">
-            <h1 className="center mb-10">TIME NFT</h1>
+          <h1 className="center mb-10">TIME NFT</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non animi
             maxime tempora commodi placeat dignissimos in autem veniam hic

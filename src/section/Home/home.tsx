@@ -18,8 +18,8 @@ const Home = () => {
     <div className="confetti-piece"></div>
     <div className="confetti-piece"></div>
 </div>
-        <h2 style={{color:'#fff',padding:'1em',textAlign:'center',fontSize:'3em'}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. </h2>
-   
+        {/* <h2 style={{color:'#fff',padding:'1em 2em',textAlign:'center',fontSize:'3em'}}>Experience your virtual world with Character and Time NFT </h2> */}
+        <h4 style={{color:'#fff',padding:'1em 2em',textAlign:'center',fontSize:'3em',fontWeight:'600'}}>LOCK ,TRADE AND EARN WITH TIME</h4>
     </div>
   )
 }

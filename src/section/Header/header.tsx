@@ -1,5 +1,6 @@
 import React from 'react'
 import {NavLink} from 'react-router-dom'
+import Button from '../../components/Button/button'
 import './header.scss'
 
 const Header = () => {
@@ -10,9 +11,11 @@ const Header = () => {
     </div>
     <div>
         <NavLink to='/'>Home</NavLink>
-        <NavLink to='/'>Marketplace</NavLink>
-        <NavLink to='about'>About Us</NavLink>
+        <NavLink to='/about'>About Us</NavLink>
+        <NavLink to='/roadmap'>Roadmap</NavLink>
+        <NavLink to='/team'>Team</NavLink>
     </div>
+    <Button>Launch App</Button>
     </div>
   )
 }

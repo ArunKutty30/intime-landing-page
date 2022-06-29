@@ -1,26 +1,37 @@
 .about{
     font-family: 'Proxon';
     padding:5em;
-    background-color: black;
+    background:url(../../assets/images/aboutus.jpg);
+    background-position:  center;
+    background-size: cover;
+    @media (max-width:768px) {
+        padding:1em;
+    }
     h1{
         color: #fff;
         font-size: 2.8em;
-       }
+        text-align: center;
+        font-style: italic;
+    }
     .content{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+       
         margin: 1em;
         .about_info{
             &>*{
-                padding: 0.5em;
+                padding: 1em;
             }
-            p{  
+            p{  width: 50%;
                 color: #fff;
                 margin:0 auto;
                 font-family: 'IBM Plex Sans', sans-serif;
-                font-size:1.2em;
                 line-height: 1.4;
-                font-weight: 500;
+                font-weight: 400;
+                @media (max-width:768px) {
+                    width:70%;
+                }
+                @media (max-width:576px) {
+                    width: 100%;
+                }
             }
         }
        
