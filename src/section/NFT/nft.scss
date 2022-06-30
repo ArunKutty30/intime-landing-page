@@ -4,6 +4,9 @@
     //background:url(../../assets/images/clockbg.jpg) ;
     background-position: top center;
     background-size: cover;
+    @media (max-width:576px) {
+      padding:2em;
+    }
     
     h1{
         font-family: 'Proxon';

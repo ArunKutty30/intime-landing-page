@@ -2,11 +2,16 @@
     background-color: var(--primary-color);
     display: grid;
     place-items: center;
-    padding-bottom: 2em;
+    padding: 0.5em 2em;
     h1{
         color: var(--secondary-color);
         font-family: 'Proxon';
         padding:2em;
         font-style: italic;
+    }
+    .video{
+        max-width: 600px;
+        width: 100%;
+        aspect-ratio: 16/9;
     }
 }

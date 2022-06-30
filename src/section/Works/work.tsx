@@ -5,8 +5,7 @@ const Work = () => {
     <div className="work">
       <h1>HOW IT WORKS?</h1>
       <iframe
-        width="420"
-        height="315"
+       className="video"
         src="https://www.youtube.com/embed/tgbNymZ7vqY"
         title="youtue"
       ></iframe>
