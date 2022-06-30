@@ -7,16 +7,19 @@ import TeamCard from './teamcard';
 const team=[
     {
         name:'Mr . SamRaj',
-        image:sam
+        image:sam,
+        link:'https://instagram.com/sam.de.zero?igshid=YmMyMTA2M2Y='
     },
     {
         name:'Arunachalam J',
-        image:arun
+        image:arun,
+        link:'https://instagram.com/crypto.psych?igshid=YmMyMTA2M2Y='
     },
   
     {
         name:'Arunachalam N',
-        image:arunram
+        image:arunram,
+        link:'https://instagram.com/arunram77770?igshid=YmMyMTA2M2Y='
     }
 ]
 const Team = () => {
@@ -33,7 +36,7 @@ const Team = () => {
             team.map((a,index) => {
                 return(
                     <div style={{display:'grid',alignItems:'center'}}>
-                        <TeamCard name={a.name} image={a.image} key={index.toString()} />
+                        <TeamCard name={a.name} image={a.image} key={index.toString()} link={a.link}/>
                     </div>
                 )
             })

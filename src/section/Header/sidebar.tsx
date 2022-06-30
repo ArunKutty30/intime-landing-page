@@ -21,7 +21,10 @@ const Sidebar:React.FC<ISidebar> = ({setValue}) => {
         <a href='#roadmap' onClick={() => setValue(v=>!v)}>Roadmap</a>
         <a href='#team' onClick={() => setValue(v=>!v)}>Team</a>
         <a href='#team' onClick={() => setValue(v=>!v)}>Whitepaper</a>
+        <a href='https://marketplace.intimenft.app'>
         <Button style={{fontFamily:'Grind',border:'1px solid white'}} >Launch App</Button>
+
+        </a>
         
     </div>
     <div>

@@ -6,7 +6,7 @@ import Sidebar from './sidebar';
 import menu from "../../assets/icons/menu.png";
 const Header = () => {
   const[value,setValue]=useState(false);
-
+ 
   return (
     <div className='header'>
     <div>
@@ -19,8 +19,10 @@ const Header = () => {
        <a href='#team'>Team</a>
        <a href='#team'>Whitepaper</a>
     </div>
-
+    <a href='https://marketplace.intimenft.app' target='blank'>
     <Button style={{fontFamily:'Grind'}} className='btn'>Launch App</Button>
+    </a>
+    
     <div className='nav_menu' onClick={()=> setValue(!value)}>
     <img src={menu} alt='menu' width='30' height='30'></img>
     </div>
