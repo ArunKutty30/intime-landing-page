@@ -53,7 +53,7 @@ const Roadmap: React.FC = () => {
         <div className="roadmap_container">
           <div className="roadmap_container-header">
             <h1 style={{fontSize:'2.3em',marginBottom:'1em'}} data-aos='fade-up'>
-              ROAPMAP
+              ROADMAP
             </h1>
             
           </div>

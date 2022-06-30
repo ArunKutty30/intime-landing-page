@@ -22,7 +22,7 @@ const About = () => {
           </p>
           <p data-aos='fade-up'>
             Take a look on our RoadMap we are yet to lauch many products as well.We are glad 
-            if we grow together with cryto.
+            if we grow together with crypto.
           </p>
         </div>
       </div>
