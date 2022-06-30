@@ -17,6 +17,7 @@ const Header = () => {
        <a href='#about'>About</a>
        <a href='#roadmap'>Roadmap</a>
        <a href='#team'>Team</a>
+       <a href='#team'>Whitepaper</a>
     </div>
 
     <Button style={{fontFamily:'Grind'}} className='btn'>Launch App</Button>

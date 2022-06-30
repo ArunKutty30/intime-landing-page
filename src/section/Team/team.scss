@@ -1,17 +1,18 @@
 .team {
-  padding: 2em;
+  padding: 3em;
   background-color: black;
   margin: 0 auto;
   h1 {
     color: var(--secondary-color);
     font-family: "Proxon";
     font-style: italic;
+    margin-bottom: 2em;
   }  
     .card_container {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
       grid-gap: 1em;
-      align-items: center;
+      place-items: center;
       @media (max-width: 768px) {
         grid-template-columns: 1fr;
       }

@@ -9,32 +9,20 @@ const About = () => {
        
         <div className="about_info">
           <p data-aos='fade-up'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi error
-            libero eveniet sapiente odio, tenetur sit alias aliquid expedita
-            facilis tempore voluptate ullam dolores veniam ex vero, distinctio
-            eius. Placeat?
-          
-        
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi error
-            libero eveniet sapiente odio, tenetur sit alias aliquid expedita
-            facilis tempore voluptate ullam dolores veniam ex vero, distinctio
-            eius. Placeat?
+            We are a decentralised community of people intersted in 
+            contributing our ideas and works in the crypto space.We focus on 
+            creating products that will create impact to the people
+            or revolutionise the existing system.
+
           </p>
           <p data-aos='fade-up'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi error
-            libero eveniet sapiente odio, tenetur sit alias aliquid expedita
-            facilis tempore voluptate ullam dolores veniam ex vero, distinctio
-            eius. Placeat?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi error
-            libero eveniet sapiente odio, tenetur sit alias aliquid expedita
-            facilis tempore voluptate ullam dolores veniam ex vero, distinctio
-            eius. Placeat?
+            We had previously worked in many dapp and defi projects as a service.But INTIME
+            is our first product that we had built.You trust us and we trust you.So, this trust factor
+            will be never left behind.
           </p>
           <p data-aos='fade-up'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi error
-            libero eveniet sapiente odio, tenetur sit alias aliquid expedita
-            facilis tempore voluptate ullam dolores veniam ex vero, distinctio
-            eius. Placeat?
+            Take a look on our RoadMap we are yet to lauch many products as well.We are glad 
+            if we grow together with cryto.
           </p>
         </div>
       </div>

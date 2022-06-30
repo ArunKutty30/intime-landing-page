@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className='footer'>
        <div>
-        <h3>Copyright © 2021 INTIME</h3>
+        <h3 style={{textAlign:'center'}}>Copyright © 2021 INTIME</h3>
        </div>
        <div>
 

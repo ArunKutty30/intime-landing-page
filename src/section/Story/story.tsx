@@ -10,30 +10,17 @@ const Story = () => {
         <div className="left_block" >
           <h1 data-aos='fade-right'>STORYLINE</h1>
           <p data-aos='fade-right'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-            facere, corrupti ut reiciendis consequatur maiores deleniti,
-            pariatur, et optio eaque perspiciatis veniam? Est quia nisi soluta,
-            sunt vero quam saepe.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-            facere, corrupti ut reiciendis consequatur maiores deleniti,
-            pariatur, et optio eaque perspiciatis veniam? Est quia nisi soluta,
-            sunt vero quam saepe.
+           In a future where time is money and the wealthy can live forever.Build your virtual city with 
+           time and trade it.To build this you need TIME and Character NFT.Character NFT decides the traits 
+           of your character and your lifespan depends upon TIME NFT.
           </p>
           <p data-aos='fade-right'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-            facere, corrupti ut reiciendis consequatur maiores deleniti,
-            pariatur, et optio eaque perspiciatis veniam? Est quia nisi soluta,
-            sunt vero quam saepe.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-            facere, corrupti ut reiciendis consequatur maiores deleniti,
-            pariatur, et optio eaque perspiciatis veniam? Est quia nisi soluta,
-            sunt vero quam saepe.
+           To live long you must earn time .You can earn time by renting out your buildings,gamble or by locking your time.
+           Your character value increases by assets you hold.Buy Asset NFT with our Intime token.
+
           </p>
           <p data-aos='fade-right'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-            facere, corrupti ut reiciendis consequatur maiores deleniti,
-            pariatur, et optio eaque perspiciatis veniam? Est quia nisi soluta,
-            sunt vero quam saepe.
+           Enjoy your virtual world,have fun and earn.
           </p>
         
          
