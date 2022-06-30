@@ -19,7 +19,7 @@ const Header = () => {
        <a href='#team'>Team</a>
     </div>
 
-    <Button style={{fontFamily:'Grind'}}>Launch App</Button>
+    <Button style={{fontFamily:'Grind'}} className='btn'>Launch App</Button>
     <div className='nav_menu' onClick={()=> setValue(!value)}>
     <img src={menu} alt='menu' width='30' height='30'></img>
     </div>

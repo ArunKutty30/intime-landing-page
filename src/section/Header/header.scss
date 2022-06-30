@@ -19,6 +19,12 @@
             display: none;
         }
     }
+    .btn{
+        background-color: black;
+        @media (max-width:768px) {
+            display: none;
+        }
+    }
     .nav_menu{
         display: none;
         @media (max-width:768px) {
