@@ -14,4 +14,15 @@
         color:var(--secondary-color);
         text-decoration: none;
     }
+    .menu{
+        @media (max-width:768px) {
+            display: none;
+        }
+    }
+    .nav_menu{
+        display: none;
+        @media (max-width:768px) {
+            display: flex;
+        }
+    }
 }

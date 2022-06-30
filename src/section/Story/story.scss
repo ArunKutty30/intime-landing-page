@@ -2,7 +2,7 @@
 
     background-color: var(--primary-color);
     height:auto;
-    padding:3em 0em 3em 3em;
+    padding:3em;
     border-bottom:1px solid #fff;
     h1{
         font-family: 'Proxon';
@@ -13,7 +13,7 @@
     //768,576
     .content{
         display: grid;
-        grid-template-columns: 0.7fr 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-gap:2em;
         place-items: center;
         @media(max-width:768px) {
@@ -35,11 +35,9 @@
             place-items: center;
 
             img{
-                width:600px;
+                width:100%;
                 border-radius: 100px;
-                align-self: center;
                 @media (max-width:768px) {
-                    width:400px;
                     border-radius: 50px;
                  }
              }

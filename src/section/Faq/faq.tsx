@@ -1,5 +1,7 @@
 import React,{useState}from 'react'
 import './faq.scss'
+import uparrow from "../../assets/icons/uparrow.png"
+import downarrow from "../../assets/icons/downarrow.png";
 const faq=[
     {
         question:'What is Intime?',
@@ -29,9 +31,15 @@ const Faqcard:React.FC<IFaqCard>=({question,answer}) =>{
     const [value,setValue] =useState(false);
     return(
         <div className='faq_section' data-aos='fade-up'>
+            <div style={{display:'flex',alignItems:'center',justifyContent:'space-between'}}>
             <div onClick={() =>setValue(!value)}>
                 {question}
             </div>
+            {
+                value ? <img src={uparrow} width='20' height='20' alt='arrow' onClick={() =>setValue(!value)}></img>:<img src={downarrow} width='20' height='20' alt='arrow' onClick={() =>setValue(!value)}></img>
+            }
+            </div>
+           
             {
                 value&&
                 <div className='mt-20'>
