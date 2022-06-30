@@ -16,7 +16,7 @@ const roadmap = [
     },
     {
       icon: Roadmap2,
-      title: "February 11,2022",
+      title: "February 11,2023",
       description: "Character NFT Launch",
     },
     {

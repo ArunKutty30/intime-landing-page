@@ -11,9 +11,17 @@ const Nft = () => {
       </h1>
       <div className="type">
         <div className="first_block" data-aos="fade-up">
+          <div style={{marginBottom:'20px'}}>
           <Button variant="primary" onClick={() => setValue(1)}>TIME NFT</Button>
-          <Button variant="primary" onClick={() => setValue(2)}>CHARACTER NFT</Button>
-          <Button variant="primary" onClick={() => setValue(3)}>ASSET NFT</Button>
+          </div>
+        <div style={{marginBottom:'20px'}}>
+        <Button variant="primary" onClick={() => setValue(2)}>CHARACTER NFT</Button>
+
+        </div>
+        <div style={{marginBottom:'20px'}}>
+        <Button variant="primary" onClick={() => setValue(3)}>ASSET NFT</Button>
+
+        </div>
         </div>
         <div className="second_block" data-aos="fade-up">
           {
