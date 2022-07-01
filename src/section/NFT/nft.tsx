@@ -74,7 +74,7 @@ const Nft = () => {
         </div>
       </div>
       <div className="center mt-40" data-aos="fade-up">
-        <Button>Mint Time NFT</Button>
+       <a href="https://marketplace.intimenft.app"> <Button>Mint Time NFT</Button></a>
       </div>
     </div>
   );

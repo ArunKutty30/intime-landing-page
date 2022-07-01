@@ -1,17 +1,41 @@
-.work{
-    background-color: var(--primary-color);
-    display: grid;
-    place-items: center;
-    padding: 0.5em 2em;
-    h1{
-        color: var(--secondary-color);
-        font-family: 'Proxon';
-        padding:1em;
-        font-style: italic;
-    }
-    .video{
-        max-width: 600px;
-        width: 100%;
-        aspect-ratio: 16/9;
-    }
+.work {
+  background-color: var(--primary-color);
+  display: grid;
+  place-items: center;
+  padding: 0.5em 2em;
+  h1 {
+    color: var(--secondary-color);
+    font-family: "Proxon";
+    padding: 1em;
+    font-style: italic;
+  }
+  .video {
+    max-width: 600px;
+    width: 100%;
+    aspect-ratio: 16/9;
+  }
+}
+.iframecontainer {
+  position: relative;
+  overflow: hidden;
+  width: 50%;
+  height: 300px;
+  padding-top: 30.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  @media (max-width: 768px) {
+    width: 70%;
+  }
+  @media (max-width: 576px) {
+    width: 90%;
+  }
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
 }

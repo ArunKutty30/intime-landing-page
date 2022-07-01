@@ -1,6 +1,33 @@
-.footer{
-    background-color: var(--primary-color);
-    padding:2em;
-    color: var(--secondary-color);
-    border-top:1px solid #fff;
+.footer {
+  background-color: var(--primary-color);
+  padding: 2em;
+  color: var(--secondary-color);
+  border-top: 0.1px solid #fff;
+
+  h2 {
+    font-family: "Grind";
+  }
+  p {
+    margin: 1em 0em;
+  }
+
+  .section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.5fr;
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+    grid-gap: 3em;
+    .social-links {
+      a {
+        padding: 0 1em;
+      }
+    }
+    .link {
+      a {
+        margin-top: 1em;
+        display: block;
+      }
+    }
+  }
 }
