@@ -1,23 +1,23 @@
-.faq{
-    padding:3em;
-    background-color: var(--primary-color);
-    h1{
-        color: var(--secondary-color);
-        font-style: italic;
-        font-family: 'Proxon';
-        margin-bottom: 1em;
+.faq {
+  padding: 3em;
+  background-color: var(--primary-color);
+  h1 {
+    color: var(--secondary-color);
+    font-style: italic;
+    font-family: "Proxon";
+    margin-bottom: 1em;
+  }
+  .container {
+    > * {
+      margin: 1em 0px;
     }
-    .container{
-        >*{
-            margin:1em 0px;
-        }
-    }
-    .faq_section{
-        background-color: var(--secondary-color);
-        color: var(--primary-color);
-        padding:2em 1.5em;
-        border-radius: 2em;
-        font-family: 'IBM Plex Sans';
-        font-weight: bold;
-    }
+  }
+  .faq_section {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 2em 1.5em;
+    border-radius: 2em;
+    font-family: "IBM Plex Sans";
+    font-weight: bold;
+  }
 }

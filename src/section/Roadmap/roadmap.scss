@@ -12,66 +12,61 @@
     }
 
     .roadmap_wrapper {
-      
-.timeline{
-  width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 20px 1fr;
+      .timeline {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 20px 1fr;
 
-  @media (max-width:600px) {
-    grid-template-columns: 20px 1fr 1fr;
-    &_left{
-      order: 2;
+        @media (max-width: 600px) {
+          grid-template-columns: 20px 1fr 1fr;
+          &_left {
+            order: 2;
+          }
+          &_right {
+            order: 3;
+          }
+          &_middle {
+            order: 1;
+          }
+        }
+
+        &_left {
+          padding: 50px 20px;
+          display: grid;
+          justify-content: flex-end;
+          align-items: center;
+        }
+
+        &_right {
+          padding: 50px 20px;
+          display: grid;
+          justify-content: flex-start;
+          align-items: center;
+        }
+
+        &_middle {
+          height: 100%;
+          width: 5px;
+          background-color: #fff;
+          position: relative;
+
+          &::before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: violet;
+          }
+        }
+      }
     }
-    &_right{
-      order: 3;
-    }
-    &_middle{
-      order: 1;
-    }
-  }
-
-  &_left{
-    padding: 50px 20px;
-    display: grid;
-    justify-content: flex-end;
-    align-items: center;
-  }
-
-  &_right{
-    padding: 50px 20px;
-    display: grid;
-    justify-content: flex-start;
-    align-items: center;
-  }
-
-  &_middle{
-height: 100%;
-width: 5px;
-background-color: #fff;
-position: relative;
-
-&::before{
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background-color: violet;
-}
-  }
-}
-      
-     
-    }
-
   }
 }
-h1{
-  font-family: 'Proxon';
+h1 {
+  font-family: "Proxon";
   font-style: italic;
-
 }

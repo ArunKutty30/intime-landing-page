@@ -1,60 +1,57 @@
-.collection{
-    padding:5em 2em;
-    background-color: var(--primary-color);
-    //background:url(../../assets/images/clockbg.jpg) ;
-    background-position: top center;
-    background-size: cover;
-    @media (max-width:768px) {
-      padding:1em;
+.collection {
+  padding: 5em 2em;
+  background-color: var(--primary-color);
+  //background:url(../../assets/images/clockbg.jpg) ;
+  background-position: top center;
+  background-size: cover;
+  @media (max-width: 768px) {
+    padding: 1em;
+  }
+
+  h1 {
+    font-family: "Proxon";
+    color: #fff;
+    font-weight: bold;
+    font-size: 2.8em;
+    font-style: italic;
+  }
+  .type {
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
     }
-    
-    h1{
-        font-family: 'Proxon';
-        color: #fff;
-        font-weight: bold;
-        font-size: 2.8em;
-        font-style: italic;
+    grid-gap: 2em;
+    margin-top: 5em;
+    > * {
+      border-right: 0.1px solid #fff;
+      @media (max-width: 768px) {
+        border: none;
+      }
     }
-    .type{
-        padding:1em;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        @media (max-width:768px) {
-          grid-template-columns: 1fr;
-        }
-        grid-gap:2em;
-        margin-top: 5em;
-        >*{
-            border-right: 0.1px solid #fff;
-            @media (max-width:768px) {
-              border:none;
-            }
-        }
-      .first_block{
-        display: flex;
-        align-items: center;
-       justify-content: space-around;
+    .first_block {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-direction: column;
+      @media (max-width: 768px) {
         flex-direction: column;
-        @media (max-width:768px) {
-          flex-direction: column;
-          
-        }
-        &>{
-          @media (max-width:768px) {
-            margin:1em;
-            
-          }
-         
-        }
       }
-      .second_block{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-      .third_block{
-        border:none;
-        color: var(--secondary-color);
+      & > {
+        @media (max-width: 768px) {
+          margin: 1em;
+        }
       }
     }
+    .second_block {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .third_block {
+      border: none;
+      color: var(--secondary-color);
+    }
+  }
 }

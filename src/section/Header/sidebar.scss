@@ -1,18 +1,18 @@
-.sidebar{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: fit-content;
-    background-color: rgb(0,0,0);
-    z-index: 2000;
-    padding: 50px 2rem 2rem;
-    display: grid;
-    place-items: center;
-    a{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        padding:2em 0;
-    }
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: fit-content;
+  background-color: rgb(0, 0, 0);
+  z-index: 2000;
+  padding: 50px 2rem 2rem;
+  display: grid;
+  place-items: center;
+  a {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2em 0;
+  }
 }

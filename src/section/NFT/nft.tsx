@@ -11,29 +11,36 @@ const Nft = () => {
       </h1>
       <div className="type">
         <div className="first_block" data-aos="fade-up">
-          <div style={{marginBottom:'20px'}}>
-          <Button variant="primary" onClick={() => setValue(1)}>TIME NFT</Button>
+          <div style={{ marginBottom: "20px" }}>
+            <Button variant="primary" onClick={() => setValue(1)}>
+              TIME NFT
+            </Button>
           </div>
-        <div style={{marginBottom:'20px'}}>
-        <Button variant="primary" onClick={() => setValue(2)}>CHARACTER NFT</Button>
-
-        </div>
-        <div style={{marginBottom:'20px'}}>
-        <Button variant="primary" onClick={() => setValue(3)}>ASSET NFT</Button>
-
-        </div>
+          <div style={{ marginBottom: "20px" }}>
+            <Button variant="primary" onClick={() => setValue(2)}>
+              CHARACTER NFT
+            </Button>
+          </div>
+          <div style={{ marginBottom: "20px" }}>
+            <Button variant="primary" onClick={() => setValue(3)}>
+              ASSET NFT
+            </Button>
+          </div>
         </div>
         <div className="second_block" data-aos="fade-up">
-          {
-            value===1 && <img src={time} width="300" height="300" alt="collection"></img>
-          }
-          {
-            value===2 && <div style={{padding:'8em 3em'}}><h2 style={{color:'#fff'}}> COMING SOON</h2></div>
-          }
-          {
-            value===3 && <div style={{padding:'8em 3em'}}><h2 style={{color:'#fff'}}> COMING SOON</h2></div>
-          }
-         
+          {value === 1 && (
+            <img src={time} width="300" height="300" alt="collection"></img>
+          )}
+          {value === 2 && (
+            <div style={{ padding: "8em 3em" }}>
+              <h2 style={{ color: "#fff" }}> COMING SOON</h2>
+            </div>
+          )}
+          {value === 3 && (
+            <div style={{ padding: "8em 3em" }}>
+              <h2 style={{ color: "#fff" }}> COMING SOON</h2>
+            </div>
+          )}
         </div>
         <div className="third_block" data-aos="fade-up">
           {value === 1 && (
@@ -65,16 +72,17 @@ const Nft = () => {
           {value === 3 && (
             <div>
               <h1 className="center mb-10">Asset NFT</h1>
-              <p>
-               Assets you can buy for your virtual world.
-              </p>
+              <p>Assets you can buy for your virtual world.</p>
               <br></br>
             </div>
           )}
         </div>
       </div>
       <div className="center mt-40" data-aos="fade-up">
-       <a href="https://marketplace.intimenft.app"> <Button>Mint Time NFT</Button></a>
+        <a href="https://marketplace.intimenft.app">
+          {" "}
+          <Button>Mint Time NFT</Button>
+        </a>
       </div>
     </div>
   );

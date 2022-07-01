@@ -7,7 +7,11 @@ interface IButton extends ButtonHTMLAttributes<HTMLButtonElement> {
   children: ReactNode;
 }
 
-const Button: React.FC<IButton> = ({ children, variant = "primary", ...rest }) => {
+const Button: React.FC<IButton> = ({
+  children,
+  variant = "primary",
+  ...rest
+}) => {
   const getClassName = (type: string) => {
     switch (type) {
       case "secondary":
