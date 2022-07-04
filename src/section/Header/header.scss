@@ -6,6 +6,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 1.5em;
+
   h1 {
     font-family: "Grind";
     font-style: normal;
@@ -34,5 +35,20 @@
     @media (max-width: 768px) {
       display: flex;
     }
+  }
+}
+.merchandise {
+  position: sticky;
+  top: 0;
+  z-index: 10000;
+
+  text-align: center;
+  padding: 1em;
+  background-color: black;
+  color: #fff;
+  a {
+    color: goldenrod;
+    font-weight: bold;
+    text-decoration: none;
   }
 }
