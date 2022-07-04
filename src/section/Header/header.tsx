@@ -32,7 +32,10 @@ const Header = () => {
         {value && <Sidebar setValue={setValue} />}
       </div>
       <div className="merchandise">
-        Check out our <a href="https://store.intimenft.app">Merchandise</a>
+        Check out our{" "}
+        <a href="https://store.intimenft.app" target="blank">
+          Merchandise
+        </a>
       </div>
     </>
   );
