@@ -32,7 +32,7 @@ const Sidebar: React.FC<ISidebar> = ({ setValue }) => {
         <a href="#team" onClick={() => setValue((v) => !v)}>
           Team
         </a>
-        <a href="#team" onClick={() => setValue((v) => !v)}>
+        <a href="#whitepaper" onClick={() => setValue((v) => !v)}>
           Whitepaper
         </a>
         <a href="https://marketplace.intimenft.app">

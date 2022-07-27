@@ -18,7 +18,7 @@ const Header = () => {
           <a href="#about">About</a>
           <a href="#roadmap">Roadmap</a>
           <a href="#team">Team</a>
-          <a href="#team">Whitepaper</a>
+          <a href="#whitepaper">Whitepaper</a>
         </div>
         <a href="https://marketplace.intimenft.app" target="blank">
           <Button style={{ fontFamily: "Grind" }} className="btn">
