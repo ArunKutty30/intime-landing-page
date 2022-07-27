@@ -6,7 +6,7 @@ const faq = [
   {
     question: "What is Intime?",
     answer:
-      "Intime is a metaverse gaming platform. The goal of INTIME is to create a new NFT culture where the NFT asset value depends on the time spent in our platform. You can earn time by locking your NFT or playing the game. By this you can earn time and trade it in our marketplace.",
+      "Intime is a NFT trading platform where you can get only profit  by trading your NFT. The goal of INTIME is to solve the existing problems in the NFT culture and create a new category of NFT for investments. ",
   },
   {
     question: "How many can we mint per wallet?",

@@ -11,9 +11,10 @@ const Footer = () => {
         <div>
           <h2>INTIME</h2>
           <p>
-            Intime is a metaverse gaming platform. The goal of INTIME is to
-            create a new NFT culture where the NFT asset value depends on the
-            time spent in our platform.
+            Intime is a NFT trading platform where you can get only profit by
+            trading your NFT. The goal of INTIME is to solve the existing
+            problems in the NFT culture and create a new category of NFT for
+            investments.
           </p>
         </div>
 

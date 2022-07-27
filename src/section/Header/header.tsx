@@ -31,12 +31,12 @@ const Header = () => {
         </div>
         {value && <Sidebar setValue={setValue} />}
       </div>
-      <div className="merchandise">
+      {/* <div className="merchandise">
         Check out our{" "}
         <a href="https://store.intimenft.app" target="blank">
           Merchandise
         </a>
-      </div>
+      </div> */}
     </>
   );
 };

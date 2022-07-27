@@ -8,28 +8,20 @@ const roadmap = [
     description: "Launch of Time NFT",
   },
   {
-    title: "February 11,2023",
-    description: "Character NFT Launch",
+    title: "August 30,2022",
+    description: "TIME NFT Next Release",
   },
   {
-    title: "April 25,2023",
+    title: "September 01,2022",
     description: "INTIME Token",
   },
   {
-    title: "May 15,2023",
+    title: "November,2022",
     description: "Staking Pool",
   },
   {
-    title: "July 01,2023",
-    description: "Asset NFT ",
-  },
-  {
-    title: "November 07,2023",
-    description: "INTIME GAME",
-  },
-  {
-    title: "Jan 01,2024",
-    description: "Real World UseCase",
+    title: "December 01,2022",
+    description: "INTIME GAME ",
   },
 ];
 
