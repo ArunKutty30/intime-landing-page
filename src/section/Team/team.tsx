@@ -2,7 +2,7 @@ import React from "react";
 import "./team.scss";
 import arun from "../../assets/images/arun.jpeg";
 import sam from "../../assets/images/samraj.jpg";
-import arunram from "../../assets/images/arunram.jpeg";
+import arunram from "../../assets/images/arunram.jpg";
 import TeamCard from "./teamcard";
 const team = [
   {
